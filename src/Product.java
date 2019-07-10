@@ -17,15 +17,10 @@ public class Product {
         price = pr;
     }
 
-    void productInfo (Product product){
+    void productInfo (){
 
-        System.out.println(product.name + ": " + product.description);
-        System.out.println("Cena: " + product.price + " zł.");
+        System.out.println(name + ": " + description);
+        System.out.println("Cena: " + price + " zł.");
         System.out.println("\n");
     }
-
-    void categoryInfo(Product product){
-        System.out.println("Kategoria produktu: " + product.category.name + ". " + product.category.description);
-    }
-
 }

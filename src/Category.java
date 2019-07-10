@@ -6,4 +6,8 @@ public class Category {
         name = n;
         description = des;
     }
+
+    void categoryInfo(){
+        System.out.println("Kategoria produktu: " + name + ". " + description);
+    }
 }
